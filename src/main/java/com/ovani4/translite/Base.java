@@ -15,9 +15,5 @@ public class Base {
         String [] a = s.split(" ");
             base.put(a[0], a[1]);
         }
-        for (Map.Entry entry :
-                base.entrySet()) {
-            System.out.println(entry.getKey());
-        }
     }
 }
